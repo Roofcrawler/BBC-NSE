@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pma_xml_export version="1.0">
+    <database name="neogame">
+        <!--Nothing in this folder gets used-->
+    </database>
+</pma_xml_export>
