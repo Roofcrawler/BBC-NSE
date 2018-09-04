@@ -1551,7 +1551,7 @@ Your mere gaze is enough to kill your opponent!</column>
             <column name="nTreasureID">1</column>
             <column name="fHours">0</column>
             <column name="nReverse">0</column>
-            <column name="nHiddenID">1</column>
+            <column name="nHiddenID">0:0</column>
             <column name="bIdentify">0</column>
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
@@ -4574,7 +4574,7 @@ Your mere gaze is enough to kill your opponent!</column>
             <column name="nTreasureID">130</column>
             <column name="fHours">0</column>
             <column name="nReverse">0</column>
-            <column name="nHiddenID">1</column>
+            <column name="nHiddenID">0:0</column>
             <column name="bIdentify">0</column>
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
