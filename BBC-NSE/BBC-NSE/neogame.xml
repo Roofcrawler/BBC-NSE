@@ -2952,7 +2952,27 @@
 			<column name="bDegradeOutput">0</column>
 			<column name="strType">Cheat</column>
 			<column name="bScrap">0</column>
-        </table>		
+        </table>
+		<table name="recipes">
+            <column name="nID">94</column>
+            <column name="strName">Thrasher makeshift air gun</column>
+            <column name="strSecretName"></column>
+            <column name="strTools">1x3</column>
+            <column name="strConsumed"></column>
+            <column name="strDestroyed"></column>
+            <column name="nTreasureID">93</column>
+            <column name="fHours">0</column>
+            <column name="nReverse">0</column>
+            <column name="nHiddenID">1</column>
+            <column name="bIdentify">0</column>
+            <column name="bTransferComponents">0</column>
+            <column name="vAlsoTry"></column>
+            <column name="nTempTreasureID">0:3</column>
+			<column name="bDegradeOutput">0</column>
+			<column name="strType">Cheat</column>
+			<column name="bScrap">0</column>
+        </table>
+		
 		<!-- table treasuretable -->
 		<!--<table name="treasuretable">
             <column name="id">1</column>
@@ -3698,5 +3718,13 @@
             <column name="bSuppress">0</column>
             <column name="bIdentify">0</column>
         </table>		
+		<table name="treasuretable">
+            <column name="id">94</column>
+            <column name="strName">makeshift air gun</column>
+            <column name="aTreasures">NSE:60.10x1.0x1,NSE:10.10x1.0x6</column>
+            <column name="bNested">0</column>
+            <column name="bSuppress">0</column>
+            <column name="bIdentify">0</column>
+        </table>
 	</database>
 </pma_xml_export>
