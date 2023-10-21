@@ -7,12 +7,12 @@
     -->
     <database name="neogame">
 		<!-- table ingredients -->
-		<!-- table name="ingredients">
+		<table name="ingredients">
             <column name="nID">1</column>
             <column name="strName">NSE spawner</column>
             <column name="strRequiredProps">1</column>
             <column name="strForbidProps"></column>
-        </table>-->
+        </table>
 		<table name="ingredients">
             <column name="nID">2</column>
             <column name="strName">ranged weapon spawn 1</column>
@@ -55,24 +55,24 @@
             <column name="strRequiredProps">8</column>
             <column name="strForbidProps"></column>
         </table>
-		<!--<table name="ingredients">
+		<table name="ingredients">
             <column name="nID">9</column>
             <column name="strName">gloves spawner</column>
             <column name="strRequiredProps">9</column>
             <column name="strForbidProps"></column>
-        </table>-->
-		<!--<table name="ingredients">
+        </table>
+		<table name="ingredients">
             <column name="nID">10</column>
             <column name="strName">pants spawner</column>
             <column name="strRequiredProps">10</column>
             <column name="strForbidProps"></column>
-        </table>-->
-		<!--<table name="ingredients">
+        </table>
+		<table name="ingredients">
             <column name="nID">11</column>
             <column name="strName">boots spawner</column>
             <column name="strRequiredProps">11</column>
             <column name="strForbidProps"></column>
-        </table>-->
+        </table>
 		<table name="ingredients">
             <column name="nID">12</column>
             <column name="strName">other clothes spawner</column>
@@ -152,10 +152,10 @@
             <column name="strForbidProps"></column>
         </table>
 		<!-- table itemprops -->
-		<!--table name="itemprops">
+		<table name="itemprops">
             <column name="nID">1</column>
             <column name="strPropertyName">NSE spawner</column>
-        </table>-->
+        </table>
 		<table name="itemprops">
             <column name="nID">2</column>
             <column name="strPropertyName">ranged weapon spawn 1</column>
@@ -184,18 +184,18 @@
             <column name="nID">8</column>
             <column name="strPropertyName">body spawner 2</column>
         </table>
-		<!--<table name="itemprops">
+		<table name="itemprops">
             <column name="nID">9</column>
             <column name="strPropertyName">gloves spawner</column>
-        </table>-->
-		<!--<table name="itemprops">
+        </table>
+		<table name="itemprops">
             <column name="nID">10</column>
             <column name="strPropertyName">pants spawner</column>
-        </table>-->
-		<!--<table name="itemprops">
+        </table>
+		<table name="itemprops">
             <column name="nID">11</column>
             <column name="strPropertyName">boots spawner</column>
-        </table>-->
+        </table>
 		<table name="itemprops">
             <column name="nID">12</column>
             <column name="strPropertyName">other clothes spawner</column>
@@ -249,7 +249,7 @@
             <column name="strPropertyName">corpses spawner</column>
         </table>
 		<!-- table itemtypes -->
-		<!--<table name="itemtypes">
+		<table name="itemtypes">
             <column name="id">1</column>
             <column name="nGroupID">1</column>
             <column name="nSubgroupID">1</column>
@@ -287,7 +287,7 @@
             <column name="nStackLimit">1</column>
             <column name="aSwitchIDs"></column>
             <column name="aSounds">0:cuePickup,0:cuePutdown</column>
-		</table>-->
+		</table>
 		<table name="itemtypes">
             <column name="id">4</column>
             <column name="nGroupID">5</column>
@@ -561,7 +561,7 @@
             <column name="aSwitchIDs"></column>
             <column name="aSounds">0:cuePickup,0:cuePutdown</column>
         </table>
-		<!--<table name="itemtypes">
+		<table name="itemtypes">
             <column name="id">11</column>
             <column name="nGroupID">6</column>
             <column name="nSubgroupID">3</column>
@@ -599,8 +599,8 @@
             <column name="nStackLimit">1</column>
             <column name="aSwitchIDs"></column>
             <column name="aSounds">0:cuePickup,0:cuePutdown</column>
-        </table>-->
-		<!--<table name="itemtypes">
+        </table>
+		<table name="itemtypes">
             <column name="id">12</column>
             <column name="nGroupID">6</column>
             <column name="nSubgroupID">4</column>
@@ -638,8 +638,8 @@
             <column name="nStackLimit">1</column>
             <column name="aSwitchIDs"></column>
             <column name="aSounds">0:cuePickup,0:cuePutdown</column>
-        </table>-->
-		<!--<table name="itemtypes">
+        </table>
+		<table name="itemtypes">
             <column name="id">13</column>
             <column name="nGroupID">6</column>
             <column name="nSubgroupID">5</column>
@@ -677,7 +677,7 @@
             <column name="nStackLimit">1</column>
             <column name="aSwitchIDs"></column>
             <column name="aSounds">0:cuePickup,0:cuePutdown</column>
-        </table>-->
+        </table>
 		<table name="itemtypes">
             <column name="id">14</column>
             <column name="nGroupID">6</column>
@@ -1186,7 +1186,7 @@
             <column name="aSounds">0:cuePickup,0:cuePutdown</column>
         </table>
 		<!-- table recipes -->
-		<!--<table name="recipes">
+		<table name="recipes">
             <column name="nID">1</column>
             <column name="strName">NSE main spawner</column>
             <column name="strSecretName"></column>
@@ -1201,10 +1201,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>-->
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">2</column>
             <column name="strName">NSE Weapons and Ammunition</column>
@@ -1220,9 +1220,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">3</column>
@@ -1239,10 +1239,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">4</column>
             <column name="strName">NSE Bags and Containers</column>
@@ -1258,10 +1258,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">5</column>
             <column name="strName">NSE Medical Supplies</column>
@@ -1277,10 +1277,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">6</column>
             <column name="strName">NSE Food and Liquids</column>
@@ -1296,9 +1296,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">7</column>
@@ -1315,9 +1315,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">8</column>
@@ -1334,10 +1334,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">9</column>
             <column name="strName">NSE Crafting Components</column>
@@ -1353,10 +1353,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">10</column>
             <column name="strName">NSE Other and Corpses</column>
@@ -1372,9 +1372,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">11</column>
@@ -1391,9 +1391,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">12</column>
@@ -1410,10 +1410,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>			
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">13</column>
             <column name="strName">.45 pistol suppresor</column>
@@ -1429,9 +1429,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">14</column>
@@ -1448,9 +1448,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">15</column>
@@ -1467,9 +1467,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">16</column>
@@ -1486,9 +1486,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">17</column>
@@ -1505,9 +1505,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>	
 		<table name="recipes">
             <column name="nID">18</column>
@@ -1524,10 +1524,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>	
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">19</column>
             <column name="strName">.38 AP pistol rounds</column>
@@ -1543,10 +1543,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>	
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">20</column>
             <column name="strName">.45 AP pistol rounds</column>
@@ -1562,10 +1562,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">21</column>
             <column name="strName">.45 pistol magazine</column>
@@ -1581,10 +1581,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>	
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">22</column>
             <column name="strName">.308 rifle magazine</column>
@@ -1600,9 +1600,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">23</column>
@@ -1619,9 +1619,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>		
 		<table name="recipes">
             <column name="nID">24</column>
@@ -1638,10 +1638,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">25</column>
             <column name="strName">baseball bat</column>
@@ -1657,9 +1657,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">26</column>
@@ -1676,9 +1676,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">27</column>
@@ -1695,9 +1695,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">28</column>
@@ -1714,9 +1714,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">29</column>
@@ -1732,10 +1732,9 @@
             <column name="bIdentify">0</column>
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
-            <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">30</column>
@@ -1752,9 +1751,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">31</column>
@@ -1771,9 +1770,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">32</column>
@@ -1790,9 +1789,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">33</column>
@@ -1809,9 +1808,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">34</column>
@@ -1828,9 +1827,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">35</column>
@@ -1847,9 +1846,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">36</column>
@@ -1866,9 +1865,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">37</column>
@@ -1885,9 +1884,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">38</column>
@@ -1904,9 +1903,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">39</column>
@@ -1923,9 +1922,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">40</column>
@@ -1942,9 +1941,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">41</column>
@@ -1961,9 +1960,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">42</column>
@@ -1980,9 +1979,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">43</column>
@@ -1999,9 +1998,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">44</column>
@@ -2018,9 +2017,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">45</column>
@@ -2037,9 +2036,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">46</column>
@@ -2056,9 +2055,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">47</column>
@@ -2075,9 +2074,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">48</column>
@@ -2094,9 +2093,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">49</column>
@@ -2113,10 +2112,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">50</column>
             <column name="strName">empty inhaler</column>
@@ -2132,9 +2131,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">51</column>
@@ -2151,9 +2150,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">52</column>
@@ -2170,10 +2169,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">53</column>
             <column name="strName">caravan cigarettes w/pack</column>
@@ -2189,10 +2188,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>	
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">54</column>
             <column name="strName">roll-up cigarettes w/pack</column>
@@ -2208,9 +2207,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">55</column>
@@ -2227,9 +2226,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">56</column>
@@ -2246,9 +2245,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">57</column>
@@ -2265,10 +2264,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">58</column>
             <column name="strName">flour and yeast</column>
@@ -2284,9 +2283,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">59</column>
@@ -2303,9 +2302,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">60</column>
@@ -2322,9 +2321,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">61</column>
@@ -2341,9 +2340,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">62</column>
@@ -2360,10 +2359,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">63</column>
             <column name="strName">wolverine coffee</column>
@@ -2379,9 +2378,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">64</column>
@@ -2398,9 +2397,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">65</column>
@@ -2417,10 +2416,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">66</column>
             <column name="strName">beer</column>
@@ -2436,10 +2435,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">67</column>
             <column name="strName">wine</column>
@@ -2455,10 +2454,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>			
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>		
 		<table name="recipes">
             <column name="nID">68</column>
             <column name="strName">coffee</column>
@@ -2474,9 +2473,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">69</column>
@@ -2493,9 +2492,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">70</column>
@@ -2512,9 +2511,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">71</column>
@@ -2531,10 +2530,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">72</column>
             <column name="strName">tarp sleeping bag</column>
@@ -2550,9 +2549,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">73</column>
@@ -2569,10 +2568,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">74</column>
             <column name="strName">commercial scent killer</column>
@@ -2588,10 +2587,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>	
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">75</column>
             <column name="strName">signal hacking software</column>
@@ -2607,9 +2606,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">76</column>
@@ -2626,9 +2625,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">77</column>
@@ -2645,9 +2644,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">78</column>
@@ -2664,9 +2663,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">79</column>
@@ -2683,10 +2682,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>	
 		<table name="recipes">
             <column name="nID">80</column>
             <column name="strName">scrap metal sheet</column>
@@ -2702,10 +2701,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">81</column>
             <column name="strName">copper tubing</column>
@@ -2721,9 +2720,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">82</column>
@@ -2740,9 +2739,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">83</column>
@@ -2759,10 +2758,10 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
-        </table>		
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
+        </table>
 		<table name="recipes">
             <column name="nID">84</column>
             <column name="strName">duct tape</column>
@@ -2778,9 +2777,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">85</column>
@@ -2797,9 +2796,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">86</column>
@@ -2816,9 +2815,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">87</column>
@@ -2835,9 +2834,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">88</column>
@@ -2854,9 +2853,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">89</column>
@@ -2873,9 +2872,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">90</column>
@@ -2892,9 +2891,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">91</column>
@@ -2911,9 +2910,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">92</column>
@@ -2930,9 +2929,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">93</column>
@@ -2949,9 +2948,9 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
 		<table name="recipes">
             <column name="nID">94</column>
@@ -2968,20 +2967,19 @@
             <column name="bTransferComponents">0</column>
             <column name="vAlsoTry"></column>
             <column name="nTempTreasureID">0:3</column>
-			<column name="bDegradeOutput">0</column>
-			<column name="strType">Cheat</column>
-			<column name="bScrap">0</column>
+	    <column name="bDegradeOutput">0</column>
+	    <column name="strType">Cheat</column>
+            <column name="bScrap">0</column>
         </table>
-		
 		<!-- table treasuretable -->
-		<!--<table name="treasuretable">
+		<table name="treasuretable">
             <column name="id">1</column>
             <column name="strName">NSE spawner</column>
             <column name="aTreasures">1.1x1.0x1</column>
             <column name="bNested">0</column>
             <column name="bSuppress">0</column>
             <column name="bIdentify">0</column>
-        </table>-->
+        </table>
 		<table name="treasuretable">
             <column name="id">2</column>
             <column name="strName">weapon spawner</column>
